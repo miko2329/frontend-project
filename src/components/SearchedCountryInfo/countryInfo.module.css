@@ -1,0 +1,126 @@
+p{
+    margin: 0;
+}
+
+.countryInfoContainer{
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background: #f8a8b8ff;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+.nameCodeAndCapital{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    width: 30%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    gap: 30px;
+    padding: 20px 0;
+    width: 30%;
+}
+
+.nameCode{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.capital{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.flag{
+    width: 40%;
+}
+
+@media (max-width: 700px) {
+    .nameCodeAndCapital{
+        gap: 20px;
+    }
+
+    .nameCode{
+        font-size: 22px;
+    }
+
+    .capital{
+        font-size: 18px;
+    }
+
+    .info{
+        font-size: 16px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .flag{
+        width: 200px;
+    }
+
+    .nameCode{
+        font-size: 18px;
+    }
+
+    .capital{
+        font-size: 14px;
+    }
+
+    .info{
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    .nameCodeAndCapital{
+        gap: 15px;
+    }
+
+    .countryInfoContainer{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .flag{
+        width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .flag{
+        width: 100px;
+    }
+
+    .nameCode{
+        font-size: 15px;
+    }
+
+    .capital{
+        font-size: 12px;
+    }
+
+    .info{
+        font-size: 12px;
+    }
+
+    .countryInfoContainer{
+        flex-direction: column;
+    }
+}

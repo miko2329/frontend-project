@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 0;
+    gap: 150px;
+}
+
+.text{
+    color: white;
+    font-size: 40px;
+}
+
+.link{
+    color: #2196F3;
+    font-size: 30px;
+}
+
+@media (max-width: 550px){
+    .text, .link{
+        font-size: 24px;
+    }
+
+    .home{
+        gap: 50px;
+        padding: 50px 0;
+    }
+}

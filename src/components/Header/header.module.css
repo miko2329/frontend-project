@@ -1,0 +1,22 @@
+.headerMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+    text-align: end;
+}
+
+@media (max-width: 450px) {
+    .headerMain h1{
+        font-size: 22px;
+    }
+}
