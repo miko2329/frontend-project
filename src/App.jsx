@@ -41,7 +41,7 @@ function App() {
 
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/frontend-project">
                 <nav className="navbar">
                     <ul className="navbarList">
                         <li className="navbarItem"><Link to="/">Home</Link></li>
